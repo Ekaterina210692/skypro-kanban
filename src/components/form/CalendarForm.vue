@@ -1,6 +1,3 @@
-<script setup>
-
-</script>
 
 <template>
   <div class="calendar">
@@ -10,21 +7,15 @@
         <div class="calendar__month">{{ currentMonth }}</div>
         <div class="nav__actions">
           <div class="nav__action" @click="prevMonth" data-action="prev">
-            <!-- SVG стрелка влево -->
           </div>
           <div class="nav__action" @click="nextMonth" data-action="next">
-            <!-- SVG стрелка вправо -->
           </div>
         </div>
       </div>
       <div class="calendar__content">
-        <!-- Дни недели -->
         <div class="calendar__days-names">
-          <!-- Дни недели -->
         </div>
-        <!-- Клетки календаря -->
         <div class="calendar__cells">
-          <!-- Здесь будет динамическое отображение дней -->
         </div>
       </div>
       <input type="hidden" :value="selectedDate">
@@ -36,3 +27,6 @@
     </div>
   </div>
 </template>
+<script setup>
+
+</script>

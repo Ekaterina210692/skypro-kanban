@@ -12,7 +12,7 @@
             <input v-model="password" class="modal__input password-first" type="password" placeholder="Пароль">
             <button class="modal__btn-signup-ent _hover01" type="submit">Зарегистрироваться</button>
             <div class="modal__form-group">
-              <p>Уже есть аккаунт? <router-link to="/signin">Войдите здесь</router-link></p>
+              <p>Уже есть аккаунт? <router-link to="{ name: 'signin'}">Войдите здесь</router-link></p>
             </div>
           </form>
 				</div>
