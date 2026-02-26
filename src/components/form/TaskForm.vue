@@ -27,7 +27,7 @@
 </template>
 
 <script setup>
-import Calendar from '@/components/atoms/Calendar.vue';
+import Calendar from '@/components/form/CalendarForm.vue';
 
 defineProps({
   formClass: String,

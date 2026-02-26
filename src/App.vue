@@ -1,27 +1,26 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/pages/HelloWorld.vue'
-</script>
+<script setup></script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="../basecomop/icons/logo.svg" width="125" height="125" />
-
-    <div class="app">
-      <HelloWorld msg="#" />
-
+    <img
+      alt="Vue logo"
+      class="logo"
+      src="@/components/basecomop/icons/logo.svg"
+      width="125"
+      height="125"
+    />
+    <div id="app">
       <nav>
-        <router-link to="{ name: 'signin'}">Вход</router-link>
-        <router-link to="{ name: 'signup' }">Регистация</router-link>
+        <router-link :to="{ name: 'signin' }">Вход</router-link>
+        <router-link :to="{ name: 'signup' }">Регистрация</router-link>
       </nav>
+      <router-view />
     </div>
   </header>
-
-  <RouterView />
 </template>
 
 <style scoped>
-.app {
+#app {
   width: 100%;
   height: 100%;
 }
@@ -68,7 +67,7 @@ nav a:first-of-type {
   }
 
   .logo {
-    margin: 0 2rem 0 0;
+    margin: 0px -8rem 5% 42%;
   }
 
   header .wrapper {

@@ -5,7 +5,7 @@
         <div class="header__block">
           <div class="header__logo">
             <a href="/" aria-label="Главная страница">
-              <img src="../basecomop/icons/logo.svg" alt="Логотип" />
+              <img src="@/components/basecomop/icons/logo.svg" alt="Логотип" />
             </a>
           </div>
           <nav class="header__nav">
@@ -46,14 +46,11 @@
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
                       <div class="card__date">
-                        <svg class="date-icon" width="13" height="13" viewBox="0 0 13 13">
-                          <!-- SVG код -->
-                        </svg>
+                        <svg class="date-icon" width="13" height="13" viewBox="0 0 13 13"></svg>
                         <span>30.10.23</span>
                       </div>
                     </div>
-                    <div class="card__actions">
-                    </div>
+                    <div class="card__actions"></div>
                   </div>
                 </div>
               </div>
