@@ -2,13 +2,6 @@
 
 <template>
   <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/components/basecomop/icons/logo.svg"
-      width="125"
-      height="125"
-    />
     <div id="app">
       <nav>
         <router-link :to="{ name: 'signin' }">Вход</router-link>
@@ -27,11 +20,6 @@
 header {
   line-height: 1.5;
   max-height: 100vh;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
 }
 
 nav {
@@ -64,10 +52,6 @@ nav a:first-of-type {
     display: flex;
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0px -8rem 5% 42%;
   }
 
   header .wrapper {

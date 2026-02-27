@@ -51,7 +51,79 @@
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
                       <div class="card__date">
+                        <svg
+                          class="date-icon"
+                          width="13"
+                          height="13"
+                          viewBox="0 0 13 13"
+                          src="/src/components/basecomop/icons/calendaR.svg"
+                        ></svg>
+                        <span>30.10.23</span>
+                      </div>
+                    </div>
+                    <div class="card__actions"></div>
+                  </div>
+                  <div class="card">
+                    <div class="card__theme card__theme--green">Research</div>
+                    <div class="card__content">
+                      <h3 class="card__title">Название задачи</h3>
+                      <div class="card__date">
                         <svg class="date-icon" width="13" height="13" viewBox="0 0 13 13"></svg>
+                        <span>30.10.23</span>
+                      </div>
+                    </div>
+                    <div class="card__actions"></div>
+                  </div>
+                  <div class="card">
+                    <div class="card__theme card__theme--orange">Web Design</div>
+                    <div class="card__content">
+                      <h3 class="card__title">Название задачи</h3>
+                      <div class="card__date">
+                        <svg class="date-icon" width="13" height="13" viewBox="0 0 13 13"></svg>
+                        <span>30.10.23</span>
+                      </div>
+                    </div>
+                    <div class="card__actions"></div>
+                  </div>
+                  <div class="card">
+                    <div class="card__theme card__theme--purple">Copywriting</div>
+                    <div class="card__content">
+                      <h3 class="card__title">Название задачи</h3>
+                      <div class="card__date">
+                        <svg class="date-icon" width="13" height="13" viewBox="0 0 13 13"></svg>
+                        <span>30.10.23</span>
+                      </div>
+                    </div>
+                    <div class="card__actions"></div>
+                  </div>
+                  <div class="card">
+                    <div class="card__theme card__theme--green">Research</div>
+                    <div class="card__content">
+                      <h3 class="card__title">Название задачи</h3>
+                      <div class="card__date">
+                        <svg class="date-icon" width="13" height="13" viewBox="0 0 13 13"></svg>
+                        <span>30.10.23</span>
+                      </div>
+                    </div>
+                    <div class="card__actions"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="task-column">
+                <h2 class="column-title">Нужно сделать</h2>
+                <div class="card-list">
+                  <div class="card">
+                    <div class="card__theme card__theme--green">Research</div>
+                    <div class="card__content">
+                      <h3 class="card__title">Название задачи</h3>
+                      <div class="card__date">
+                        <svg
+                          class="date-icon"
+                          width="13"
+                          height="13"
+                          viewBox="0 0 13 13"
+                          src="/src/components/basecomop/icons/calendaR.svg"
+                        ></svg>
                         <span>30.10.23</span>
                       </div>
                     </div>
@@ -61,15 +133,76 @@
               </div>
 
               <div class="task-column">
-                <h2 class="column-title">Нужно сделать</h2>
-              </div>
-
-              <div class="task-column">
                 <h2 class="column-title">В работе</h2>
+                <div class="card-list">
+                  <div class="card">
+                    <div class="card__theme card__theme--green">Research</div>
+                    <div class="card__content">
+                      <h3 class="card__title">Название задачи</h3>
+                      <div class="card__date">
+                        <svg
+                          class="date-icon"
+                          width="13"
+                          height="13"
+                          viewBox="0 0 13 13"
+                          src="/src/components/basecomop/icons/calendaR.svg"
+                        ></svg>
+                        <span>30.10.23</span>
+                      </div>
+                    </div>
+                    <div class="card__actions"></div>
+                  </div>
+                  <div class="card">
+                    <div class="card__theme card__theme--purple">Copywriting</div>
+                    <div class="card__content">
+                      <h3 class="card__title">Название задачи</h3>
+                      <div class="card__date">
+                        <svg class="date-icon" width="13" height="13" viewBox="0 0 13 13"></svg>
+                        <span>30.10.23</span>
+                      </div>
+                    </div>
+                    <div class="card__actions"></div>
+                  </div>
+                  <div class="card">
+                    <div class="card__theme card__theme--orange">Web Design</div>
+                    <div class="card__content">
+                      <h3 class="card__title">Название задачи</h3>
+                      <div class="card__date">
+                        <svg
+                          class="date-icon"
+                          width="13"
+                          height="13"
+                          viewBox="0 0 13 13"
+                          src="/src/components/basecomop/icons/calendaR.svg"
+                        ></svg>
+                        <span>30.10.23</span>
+                      </div>
+                    </div>
+                    <div class="card__actions"></div>
+                  </div>
+                </div>
               </div>
-
               <div class="task-column">
                 <h2 class="column-title">Тестирование</h2>
+                <div class="card-list">
+                  <div class="card">
+                    <div class="card__theme card__theme--green">Research</div>
+                    <div class="card__content">
+                      <h3 class="card__title">Название задачи</h3>
+                      <div class="card__date">
+                        <svg
+                          class="date-icon"
+                          width="13"
+                          height="13"
+                          viewBox="0 0 13 13"
+                          src="/src/components/basecomop/icons/calendaR.svg"
+                        ></svg>
+                        <span>30.10.23</span>
+                      </div>
+                    </div>
+                    <div class="card__actions"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
