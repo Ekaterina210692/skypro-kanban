@@ -47,61 +47,130 @@
                 <h2 class="column-title">Без статуса</h2>
                 <div class="card-list">
                   <div class="card">
-                    <div class="card__theme card__theme--orange">Web Design</div>
+                    <div class="card__theme"><div class="card__theme-orange">Web Design</div>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 14C12.1046 14 13 13.1046 13 12C13 10.8954 12.1046 10 11 10C9.89543 10 9 10.8954 9 12C9 13.1046 9.89543 14 11 14Z" fill="#94A6BE"/>
+<path d="M18 14C19.1046 14 20 13.1046 20 12C20 10.8954 19.1046 10 18 10C16.8954 10 16 10.8954 16 12C16 13.1046 16.8954 14 18 14Z" fill="#94A6BE"/>
+<path d="M4 14C5.10457 14 6 13.1046 6 12C6 10.8954 5.10457 10 4 10C2.89543 10 2 10.8954 2 12C2 13.1046 2.89543 14 4 14Z" fill="#94A6BE"/>
+</svg></div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
                       <div class="card__date">
-                        <svg
-                          class="date-icon"
-                          width="13"
-                          height="13"
-                          viewBox="0 0 13 13"
-                          src="/src/components/basecomop/icons/calendaR.svg"
-                        ></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+													<g clip-path="url(#clip0_1_415)">
+														<path d="M10.5625 2.03125H2.4375C1.7644 2.03125 1.21875 2.5769 1.21875 3.25V10.5625C1.21875 11.2356 1.7644 11.7812 2.4375 11.7812H10.5625C11.2356 11.7812 11.7812 11.2356 11.7812 10.5625V3.25C11.7812 2.5769 11.2356 2.03125 10.5625 2.03125Z" stroke="#94A6BE" stroke-width="0.8" stroke-linejoin="round"></path>
+														<path d="M11.7812 4.0625H1.21875M3.25 1.21875V2.03125V1.21875ZM9.75 1.21875V2.03125V1.21875Z" stroke="#94A6BE" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"></path>
+													</g>
+													<defs>
+														<clipPath id="clip0_1_415">
+															<rect width="13" height="13" fill="white"></rect>
+														</clipPath>
+													</defs>
+												</svg>
                         <span>30.10.23</span>
                       </div>
                     </div>
                     <div class="card__actions"></div>
                   </div>
                   <div class="card">
-                    <div class="card__theme card__theme--green">Research</div>
+                    <div class="card__theme"><div class="card__theme-green">Research</div>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 14C12.1046 14 13 13.1046 13 12C13 10.8954 12.1046 10 11 10C9.89543 10 9 10.8954 9 12C9 13.1046 9.89543 14 11 14Z" fill="#94A6BE"/>
+<path d="M18 14C19.1046 14 20 13.1046 20 12C20 10.8954 19.1046 10 18 10C16.8954 10 16 10.8954 16 12C16 13.1046 16.8954 14 18 14Z" fill="#94A6BE"/>
+<path d="M4 14C5.10457 14 6 13.1046 6 12C6 10.8954 5.10457 10 4 10C2.89543 10 2 10.8954 2 12C2 13.1046 2.89543 14 4 14Z" fill="#94A6BE"/>
+</svg></div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
                       <div class="card__date">
-                        <svg class="date-icon" width="13" height="13" viewBox="0 0 13 13"></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+													<g clip-path="url(#clip0_1_415)">
+														<path d="M10.5625 2.03125H2.4375C1.7644 2.03125 1.21875 2.5769 1.21875 3.25V10.5625C1.21875 11.2356 1.7644 11.7812 2.4375 11.7812H10.5625C11.2356 11.7812 11.7812 11.2356 11.7812 10.5625V3.25C11.7812 2.5769 11.2356 2.03125 10.5625 2.03125Z" stroke="#94A6BE" stroke-width="0.8" stroke-linejoin="round"></path>
+														<path d="M11.7812 4.0625H1.21875M3.25 1.21875V2.03125V1.21875ZM9.75 1.21875V2.03125V1.21875Z" stroke="#94A6BE" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"></path>
+													</g>
+													<defs>
+														<clipPath id="clip0_1_415">
+															<rect width="13" height="13" fill="white"></rect>
+														</clipPath>
+													</defs>
+												</svg>
                         <span>30.10.23</span>
                       </div>
                     </div>
                     <div class="card__actions"></div>
                   </div>
                   <div class="card">
-                    <div class="card__theme card__theme--orange">Web Design</div>
+                    <div class="card__theme"><div class="card__theme-orange">Web Design</div>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 14C12.1046 14 13 13.1046 13 12C13 10.8954 12.1046 10 11 10C9.89543 10 9 10.8954 9 12C9 13.1046 9.89543 14 11 14Z" fill="#94A6BE"/>
+<path d="M18 14C19.1046 14 20 13.1046 20 12C20 10.8954 19.1046 10 18 10C16.8954 10 16 10.8954 16 12C16 13.1046 16.8954 14 18 14Z" fill="#94A6BE"/>
+<path d="M4 14C5.10457 14 6 13.1046 6 12C6 10.8954 5.10457 10 4 10C2.89543 10 2 10.8954 2 12C2 13.1046 2.89543 14 4 14Z" fill="#94A6BE"/>
+</svg></div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
                       <div class="card__date">
-                        <svg class="date-icon" width="13" height="13" viewBox="0 0 13 13"></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+													<g clip-path="url(#clip0_1_415)">
+														<path d="M10.5625 2.03125H2.4375C1.7644 2.03125 1.21875 2.5769 1.21875 3.25V10.5625C1.21875 11.2356 1.7644 11.7812 2.4375 11.7812H10.5625C11.2356 11.7812 11.7812 11.2356 11.7812 10.5625V3.25C11.7812 2.5769 11.2356 2.03125 10.5625 2.03125Z" stroke="#94A6BE" stroke-width="0.8" stroke-linejoin="round"></path>
+														<path d="M11.7812 4.0625H1.21875M3.25 1.21875V2.03125V1.21875ZM9.75 1.21875V2.03125V1.21875Z" stroke="#94A6BE" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"></path>
+													</g>
+													<defs>
+														<clipPath id="clip0_1_415">
+															<rect width="13" height="13" fill="white"></rect>
+														</clipPath>
+													</defs>
+												</svg>
                         <span>30.10.23</span>
                       </div>
                     </div>
                     <div class="card__actions"></div>
                   </div>
                   <div class="card">
-                    <div class="card__theme card__theme--purple">Copywriting</div>
+                    <div class="card__theme"><div class="card__theme-purple">Copywriting</div>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 14C12.1046 14 13 13.1046 13 12C13 10.8954 12.1046 10 11 10C9.89543 10 9 10.8954 9 12C9 13.1046 9.89543 14 11 14Z" fill="#94A6BE"/>
+<path d="M18 14C19.1046 14 20 13.1046 20 12C20 10.8954 19.1046 10 18 10C16.8954 10 16 10.8954 16 12C16 13.1046 16.8954 14 18 14Z" fill="#94A6BE"/>
+<path d="M4 14C5.10457 14 6 13.1046 6 12C6 10.8954 5.10457 10 4 10C2.89543 10 2 10.8954 2 12C2 13.1046 2.89543 14 4 14Z" fill="#94A6BE"/>
+</svg></div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
                       <div class="card__date">
-                        <svg class="date-icon" width="13" height="13" viewBox="0 0 13 13"></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+													<g clip-path="url(#clip0_1_415)">
+														<path d="M10.5625 2.03125H2.4375C1.7644 2.03125 1.21875 2.5769 1.21875 3.25V10.5625C1.21875 11.2356 1.7644 11.7812 2.4375 11.7812H10.5625C11.2356 11.7812 11.7812 11.2356 11.7812 10.5625V3.25C11.7812 2.5769 11.2356 2.03125 10.5625 2.03125Z" stroke="#94A6BE" stroke-width="0.8" stroke-linejoin="round"></path>
+														<path d="M11.7812 4.0625H1.21875M3.25 1.21875V2.03125V1.21875ZM9.75 1.21875V2.03125V1.21875Z" stroke="#94A6BE" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"></path>
+													</g>
+													<defs>
+														<clipPath id="clip0_1_415">
+															<rect width="13" height="13" fill="white"></rect>
+														</clipPath>
+													</defs>
+												</svg>
                         <span>30.10.23</span>
                       </div>
                     </div>
                     <div class="card__actions"></div>
                   </div>
                   <div class="card">
-                    <div class="card__theme card__theme--green">Research</div>
+                    <div class="card__theme"><div class="card__theme-green">Research</div>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 14C12.1046 14 13 13.1046 13 12C13 10.8954 12.1046 10 11 10C9.89543 10 9 10.8954 9 12C9 13.1046 9.89543 14 11 14Z" fill="#94A6BE"/>
+<path d="M18 14C19.1046 14 20 13.1046 20 12C20 10.8954 19.1046 10 18 10C16.8954 10 16 10.8954 16 12C16 13.1046 16.8954 14 18 14Z" fill="#94A6BE"/>
+<path d="M4 14C5.10457 14 6 13.1046 6 12C6 10.8954 5.10457 10 4 10C2.89543 10 2 10.8954 2 12C2 13.1046 2.89543 14 4 14Z" fill="#94A6BE"/>
+</svg></div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
                       <div class="card__date">
-                        <svg class="date-icon" width="13" height="13" viewBox="0 0 13 13"></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+													<g clip-path="url(#clip0_1_415)">
+														<path d="M10.5625 2.03125H2.4375C1.7644 2.03125 1.21875 2.5769 1.21875 3.25V10.5625C1.21875 11.2356 1.7644 11.7812 2.4375 11.7812H10.5625C11.2356 11.7812 11.7812 11.2356 11.7812 10.5625V3.25C11.7812 2.5769 11.2356 2.03125 10.5625 2.03125Z" stroke="#94A6BE" stroke-width="0.8" stroke-linejoin="round"></path>
+														<path d="M11.7812 4.0625H1.21875M3.25 1.21875V2.03125V1.21875ZM9.75 1.21875V2.03125V1.21875Z" stroke="#94A6BE" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"></path>
+													</g>
+													<defs>
+														<clipPath id="clip0_1_415">
+															<rect width="13" height="13" fill="white"></rect>
+														</clipPath>
+													</defs>
+												</svg>
                         <span>30.10.23</span>
                       </div>
                     </div>
@@ -113,17 +182,27 @@
                 <h2 class="column-title">Нужно сделать</h2>
                 <div class="card-list">
                   <div class="card">
-                    <div class="card__theme card__theme--green">Research</div>
+                    <div class="card__theme"><div class="card__theme-green">Research</div>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 14C12.1046 14 13 13.1046 13 12C13 10.8954 12.1046 10 11 10C9.89543 10 9 10.8954 9 12C9 13.1046 9.89543 14 11 14Z" fill="#94A6BE"/>
+<path d="M18 14C19.1046 14 20 13.1046 20 12C20 10.8954 19.1046 10 18 10C16.8954 10 16 10.8954 16 12C16 13.1046 16.8954 14 18 14Z" fill="#94A6BE"/>
+<path d="M4 14C5.10457 14 6 13.1046 6 12C6 10.8954 5.10457 10 4 10C2.89543 10 2 10.8954 2 12C2 13.1046 2.89543 14 4 14Z" fill="#94A6BE"/>
+</svg>
+                  </div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
                       <div class="card__date">
-                        <svg
-                          class="date-icon"
-                          width="13"
-                          height="13"
-                          viewBox="0 0 13 13"
-                          src="/src/components/basecomop/icons/calendaR.svg"
-                        ></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+													<g clip-path="url(#clip0_1_415)">
+														<path d="M10.5625 2.03125H2.4375C1.7644 2.03125 1.21875 2.5769 1.21875 3.25V10.5625C1.21875 11.2356 1.7644 11.7812 2.4375 11.7812H10.5625C11.2356 11.7812 11.7812 11.2356 11.7812 10.5625V3.25C11.7812 2.5769 11.2356 2.03125 10.5625 2.03125Z" stroke="#94A6BE" stroke-width="0.8" stroke-linejoin="round"></path>
+														<path d="M11.7812 4.0625H1.21875M3.25 1.21875V2.03125V1.21875ZM9.75 1.21875V2.03125V1.21875Z" stroke="#94A6BE" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"></path>
+													</g>
+													<defs>
+														<clipPath id="clip0_1_415">
+															<rect width="13" height="13" fill="white"></rect>
+														</clipPath>
+													</defs>
+												</svg>
                         <span>30.10.23</span>
                       </div>
                     </div>
@@ -131,50 +210,82 @@
                   </div>
                 </div>
               </div>
-
               <div class="task-column">
                 <h2 class="column-title">В работе</h2>
                 <div class="card-list">
                   <div class="card">
-                    <div class="card__theme card__theme--green">Research</div>
+                    <div class="card__theme"><div class="card__theme-green">Research</div>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 14C12.1046 14 13 13.1046 13 12C13 10.8954 12.1046 10 11 10C9.89543 10 9 10.8954 9 12C9 13.1046 9.89543 14 11 14Z" fill="#94A6BE"/>
+<path d="M18 14C19.1046 14 20 13.1046 20 12C20 10.8954 19.1046 10 18 10C16.8954 10 16 10.8954 16 12C16 13.1046 16.8954 14 18 14Z" fill="#94A6BE"/>
+<path d="M4 14C5.10457 14 6 13.1046 6 12C6 10.8954 5.10457 10 4 10C2.89543 10 2 10.8954 2 12C2 13.1046 2.89543 14 4 14Z" fill="#94A6BE"/>
+</svg></div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
                       <div class="card__date">
-                        <svg
-                          class="date-icon"
-                          width="13"
-                          height="13"
-                          viewBox="0 0 13 13"
-                          src="/src/components/basecomop/icons/calendaR.svg"
-                        ></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+													<g clip-path="url(#clip0_1_415)">
+														<path d="M10.5625 2.03125H2.4375C1.7644 2.03125 1.21875 2.5769 1.21875 3.25V10.5625C1.21875 11.2356 1.7644 11.7812 2.4375 11.7812H10.5625C11.2356 11.7812 11.7812 11.2356 11.7812 10.5625V3.25C11.7812 2.5769 11.2356 2.03125 10.5625 2.03125Z" stroke="#94A6BE" stroke-width="0.8" stroke-linejoin="round"></path>
+														<path d="M11.7812 4.0625H1.21875M3.25 1.21875V2.03125V1.21875ZM9.75 1.21875V2.03125V1.21875Z" stroke="#94A6BE" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"></path>
+													</g>
+													<defs>
+														<clipPath id="clip0_1_415">
+															<rect width="13" height="13" fill="white"></rect>
+														</clipPath>
+													</defs>
+												</svg>
                         <span>30.10.23</span>
                       </div>
                     </div>
                     <div class="card__actions"></div>
                   </div>
                   <div class="card">
-                    <div class="card__theme card__theme--purple">Copywriting</div>
+                    <div class="card__theme"><div class="card__theme-purple">Copywriting</div>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 14C12.1046 14 13 13.1046 13 12C13 10.8954 12.1046 10 11 10C9.89543 10 9 10.8954 9 12C9 13.1046 9.89543 14 11 14Z" fill="#94A6BE"/>
+<path d="M18 14C19.1046 14 20 13.1046 20 12C20 10.8954 19.1046 10 18 10C16.8954 10 16 10.8954 16 12C16 13.1046 16.8954 14 18 14Z" fill="#94A6BE"/>
+<path d="M4 14C5.10457 14 6 13.1046 6 12C6 10.8954 5.10457 10 4 10C2.89543 10 2 10.8954 2 12C2 13.1046 2.89543 14 4 14Z" fill="#94A6BE"/>
+</svg></div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
                       <div class="card__date">
-                        <svg class="date-icon" width="13" height="13" viewBox="0 0 13 13"></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+													<g clip-path="url(#clip0_1_415)">
+														<path d="M10.5625 2.03125H2.4375C1.7644 2.03125 1.21875 2.5769 1.21875 3.25V10.5625C1.21875 11.2356 1.7644 11.7812 2.4375 11.7812H10.5625C11.2356 11.7812 11.7812 11.2356 11.7812 10.5625V3.25C11.7812 2.5769 11.2356 2.03125 10.5625 2.03125Z" stroke="#94A6BE" stroke-width="0.8" stroke-linejoin="round"></path>
+														<path d="M11.7812 4.0625H1.21875M3.25 1.21875V2.03125V1.21875ZM9.75 1.21875V2.03125V1.21875Z" stroke="#94A6BE" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"></path>
+													</g>
+													<defs>
+														<clipPath id="clip0_1_415">
+															<rect width="13" height="13" fill="white"></rect>
+														</clipPath>
+													</defs>
+												</svg>
                         <span>30.10.23</span>
                       </div>
                     </div>
                     <div class="card__actions"></div>
                   </div>
                   <div class="card">
-                    <div class="card__theme card__theme--orange">Web Design</div>
+                    <div class="card__theme"><div class="card__theme-orange">Web Design</div>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 14C12.1046 14 13 13.1046 13 12C13 10.8954 12.1046 10 11 10C9.89543 10 9 10.8954 9 12C9 13.1046 9.89543 14 11 14Z" fill="#94A6BE"/>
+<path d="M18 14C19.1046 14 20 13.1046 20 12C20 10.8954 19.1046 10 18 10C16.8954 10 16 10.8954 16 12C16 13.1046 16.8954 14 18 14Z" fill="#94A6BE"/>
+<path d="M4 14C5.10457 14 6 13.1046 6 12C6 10.8954 5.10457 10 4 10C2.89543 10 2 10.8954 2 12C2 13.1046 2.89543 14 4 14Z" fill="#94A6BE"/>
+</svg></div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
                       <div class="card__date">
-                        <svg
-                          class="date-icon"
-                          width="13"
-                          height="13"
-                          viewBox="0 0 13 13"
-                          src="/src/components/basecomop/icons/calendaR.svg"
-                        ></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+													<g clip-path="url(#clip0_1_415)">
+														<path d="M10.5625 2.03125H2.4375C1.7644 2.03125 1.21875 2.5769 1.21875 3.25V10.5625C1.21875 11.2356 1.7644 11.7812 2.4375 11.7812H10.5625C11.2356 11.7812 11.7812 11.2356 11.7812 10.5625V3.25C11.7812 2.5769 11.2356 2.03125 10.5625 2.03125Z" stroke="#94A6BE" stroke-width="0.8" stroke-linejoin="round"></path>
+														<path d="M11.7812 4.0625H1.21875M3.25 1.21875V2.03125V1.21875ZM9.75 1.21875V2.03125V1.21875Z" stroke="#94A6BE" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"></path>
+													</g>
+													<defs>
+														<clipPath id="clip0_1_415">
+															<rect width="13" height="13" fill="white"></rect>
+														</clipPath>
+													</defs>
+												</svg>
                         <span>30.10.23</span>
                       </div>
                     </div>
@@ -186,17 +297,26 @@
                 <h2 class="column-title">Тестирование</h2>
                 <div class="card-list">
                   <div class="card">
-                    <div class="card__theme card__theme--green">Research</div>
+                    <div class="card__theme"><div class="card__theme-green">Research</div>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 14C12.1046 14 13 13.1046 13 12C13 10.8954 12.1046 10 11 10C9.89543 10 9 10.8954 9 12C9 13.1046 9.89543 14 11 14Z" fill="#94A6BE"/>
+<path d="M18 14C19.1046 14 20 13.1046 20 12C20 10.8954 19.1046 10 18 10C16.8954 10 16 10.8954 16 12C16 13.1046 16.8954 14 18 14Z" fill="#94A6BE"/>
+<path d="M4 14C5.10457 14 6 13.1046 6 12C6 10.8954 5.10457 10 4 10C2.89543 10 2 10.8954 2 12C2 13.1046 2.89543 14 4 14Z" fill="#94A6BE"/>
+</svg></div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
                       <div class="card__date">
-                        <svg
-                          class="date-icon"
-                          width="13"
-                          height="13"
-                          viewBox="0 0 13 13"
-                          src="/src/components/basecomop/icons/calendaR.svg"
-                        ></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+													<g clip-path="url(#clip0_1_415)">
+														<path d="M10.5625 2.03125H2.4375C1.7644 2.03125 1.21875 2.5769 1.21875 3.25V10.5625C1.21875 11.2356 1.7644 11.7812 2.4375 11.7812H10.5625C11.2356 11.7812 11.7812 11.2356 11.7812 10.5625V3.25C11.7812 2.5769 11.2356 2.03125 10.5625 2.03125Z" stroke="#94A6BE" stroke-width="0.8" stroke-linejoin="round"></path>
+														<path d="M11.7812 4.0625H1.21875M3.25 1.21875V2.03125V1.21875ZM9.75 1.21875V2.03125V1.21875Z" stroke="#94A6BE" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"></path>
+													</g>
+													<defs>
+														<clipPath id="clip0_1_415">
+															<rect width="13" height="13" fill="white"></rect>
+														</clipPath>
+													</defs>
+												</svg>
                         <span>30.10.23</span>
                       </div>
                     </div>
