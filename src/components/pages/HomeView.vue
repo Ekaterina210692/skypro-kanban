@@ -13,10 +13,15 @@
               <a href="#popNewCard">Создать новую задачу</a>
             </button>
             <div class="header__user" role="menu">
-              <button class="header__user-btn" aria-haspopup="true" aria-expanded="false">
+              <button
+                class="header__user-btn"
+                aria-haspopup="true"
+                :aria-expanded="isMenuOpen"
+                @click="toggleMenu"
+              >
                 Ivan Ivanov
               </button>
-              <div class="header__user-menu" role="menu">
+              <div class="header__user-menu" role="menu" :class="{ 'is-open': isMenuOpen }">
                 <p class="user-name">Ivan Ivanov</p>
                 <p class="user-email">ivan.ivanov@gmail.com</p>
                 <div class="theme-toggle">
@@ -73,3 +78,60 @@
     </main>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      isMenuOpen: false,
+    }
+  },
+  methods: {
+    toggleMenu() {
+      this.isMenuOpen = !this.isMenuOpen
+    },
+  },
+}
+</script>
+<style scoped>
+.header__user-menu {
+  display: none;
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header__user-btn {
+  border: none;
+  color: #565eef;
+  width: 71px;
+  height: 10px;
+  opacity: 1;
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 10px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.header__user-menu.is-open {
+  display: block;
+}
+
+.header__user-menu.is-open {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+</style>
