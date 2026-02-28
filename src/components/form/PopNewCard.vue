@@ -1,4 +1,3 @@
-
 <template>
   <div class="pop-new-card" id="popNewCard">
     <div class="pop-new-card__container">
@@ -14,7 +13,7 @@
             titleId="formTitle"
             inputType="text"
             name="name"
-            placeholder="Введите название задачи..."
+            placeholder="Введите Название задачи..."
             autofocus
             descriptionLabel="Описание задачи"
             descriptionPlaceholder="Введите описание задачи..."
@@ -30,6 +29,6 @@
 </template>
 
 <script setup>
-import TaskForm from './TaskForm.vue';
-import CategorySelector from './CategorySelector.vue';
+import TaskForm from './TaskForm.vue'
+import CategorySelector from './CategorySelector.vue'
 </script>

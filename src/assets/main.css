@@ -90,6 +90,7 @@ body {
 }
 
 .card__theme-orange {
+  font-weight: 700;
   background-color: #ffe4c2;
   color: #ff6d00;
   border-radius: 32px;
@@ -98,6 +99,7 @@ body {
 }
 
 .card__theme-green {
+  font-weight: 700;
   background-color: #b4fdd1;
   color: #06b16e;
   border-radius: 32px;
@@ -106,6 +108,7 @@ body {
 }
 
 .card__theme-purple {
+  font-weight: 700;
   background-color: #e9d4ff;
   color: #9a48f1;
   border-radius: 32px;
@@ -114,6 +117,7 @@ body {
 }
 
 ._gray {
+  font-weight: 700;
   background: #94a6be;
   color: #ffffff;
   border-radius: 32px;
@@ -819,15 +823,16 @@ body {
 }
 
 .column-title {
-  padding: 0 10px;
-  margin: 15px 0;
-}
-.card-list {
-  color: #94a6be;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1;
-  text-transform: uppercase;
+  font-family: Roboto;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+color: #94A6BE;
+margin-bottom: 20px;
 }
 
 .date-icon {
@@ -837,6 +842,7 @@ body {
   animation-timing-function: linear;
 }
 .card {
+  position: relative;
   width: 220px;
   height: 130px;
   background-color: #ffffff;
@@ -845,7 +851,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: stretch;
-  padding: 15px 13px 19px;
+  padding: 13px 13px 13px 19px;
   margin-bottom: 10px;
 }
 
@@ -873,11 +879,12 @@ body {
 }
 
 .card__title {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 18px;
-  color: #000000;
-  margin-bottom: 35px;
+  font-family: Roboto;
+font-weight: 500;
+font-style: Medium;
+font-size: 14px;
+color: #000000;
+
 }
 .card__content {
   height: 64px;

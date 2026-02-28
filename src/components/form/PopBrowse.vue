@@ -1,4 +1,3 @@
-
 <template>
   <div class="pop-browse" id="popBrowse">
     <div class="pop-browse__container">
@@ -59,7 +58,7 @@
 </template>
 
 <script setup>
-import TaskForm from './TaskForm.vue';
-import CategorySelector from './CategorySelector.vue';
-import StatusSelector from './StatusSelector.vue';
+import TaskForm from './TaskForm.vue'
+import CategorySelector from './CategorySelector.vue'
+import StatusSelector from './StatusSelector.vue'
 </script>
