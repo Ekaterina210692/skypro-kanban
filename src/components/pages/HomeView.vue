@@ -761,6 +761,7 @@ export default {
   },
 }
 </script>
+
 <style scoped>
 .my-svg {
   position: absolute;
@@ -776,6 +777,7 @@ export default {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   top: 65px;
   right: 25px;
+  z-index: 1;
 }
 
 .header__user-btn {
