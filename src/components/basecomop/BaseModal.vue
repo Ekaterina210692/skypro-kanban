@@ -11,7 +11,7 @@
               <a href="#formLogIn">Да, выйти</a>
             </button>
             <button class="pop-exit__exit-no _hover03" id="exitNo">
-              <a href="/">Нет, остаться</a>
+              <a href="#">Нет, остаться</a>
             </button>
           </div>
         </form>

@@ -1,5 +1,5 @@
 <template>
-  <div class="pop-new-card" id="popNewCard">
+  <div class="pop-new-card" v-if="visible" id="popNewCard">
     <div class="pop-new-card__container">
       <div class="pop-new-card__block">
         <div class="pop-new-card__content">
@@ -63,18 +63,39 @@
               </div>
             </div>
           </div>
+          <div>
+            <CalendarForm @date-selected="handleDateSelected" />
+            <p>Выбранная дата: {{ selectedDate }}</p>
+          </div>
         </div>
       </div>
     </div>
-    <Calendar @date-selected="handleDateSelected" />
   </div>
 </template>
 
 <script>
-import Calendar from '@/components/form/CalendarForm.vue'
- export default {
+import CalendarForm from '@/components/form/CalendarForm.vue'
+
+export default {
   components: {
-  Calendar
+    CalendarForm,
+  },
+  data() {
+    return {
+      selectedDate: null,
+      visible: false,
+    }
+  },
+  methods: {
+    handleDateSelected(date) {
+      this.selectedDate = date
+    },
+    showModal() {
+      this.visible = true
+    },
+    hideModal() {
+      this.visible = false
+    },
+  },
 }
- }
 </script>

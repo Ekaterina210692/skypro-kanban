@@ -7,14 +7,14 @@
 						<h2>Регистрация</h2>
 					</div>
 					<form @submit.prevent="handleSubmit" class="modal__form-login" id="formLogUp">
-            <input v-model="firstName" class="modal__input first-name" type="text" placeholder="Имя">
-            <input v-model="email" class="modal__input login" type="text" placeholder="Эл. почта">
-            <input v-model="password" class="modal__input password-first" type="password" placeholder="Пароль">
-            <button class="modal__btn-signup-ent _hover01" type="submit">Зарегистрироваться</button>
-            <div class="modal__form-group">
-              <p>Уже есть аккаунт? <router-link to="{ name: 'signin'}">Войдите здесь</router-link></p>
-            </div>
-          </form>
+						<input class="modal__input first-name" type="text" name="first-name" id="first-name" placeholder="Имя">
+						<input class="modal__input login" type="text" name="login" id="loginReg" placeholder="Эл. почта">
+						<input class="modal__input password-first" type="password" name="password" id="passwordFirst" placeholder="Пароль">
+						<button class="modal__btn-signup-ent _hover01" id="SignUpEnter"><a href="#formLogUp">Зарегистрироваться</a> </button>
+						<div class="modal__form-group">
+							<p>Уже есть аккаунт?  <a href="#formLogIn">Войдите здесь</a></p>
+						</div>
+					</form>
 				</div>
 			</div>
         </div>

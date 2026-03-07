@@ -30,9 +30,14 @@ const router = createRouter({
       component: CalendarForm,
     },
     {
-      path: '/tasks/new',
-      name: 'new-task',
+      path: '/new-card',
+      name: 'newCard',
       component: PopNewCard,
+    },
+    {
+      path: '/basemodal',
+      name: 'BaseModal',
+      component: () => import('@/components/basecomop/BaseModal.vue'),
     },
     {
       path: '/tasks/:id',

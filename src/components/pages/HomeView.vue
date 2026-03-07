@@ -9,7 +9,7 @@
             </a>
           </div>
           <nav class="header__nav">
-            <button class="header__btn-main-new" id="btnMainNew">
+            <button class="header__btn-main-new" id="btnMainNew" @click="showModal">
               <a href="#popNewCard">Создать новую задачу</a>
             </button>
             <div class="header__user" role="menu">
@@ -51,6 +51,7 @@
                       <div class="card__theme-orange">Web Design</div>
                       <svg
                         class="my-svg"
+                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -112,6 +113,7 @@
                       <div class="card__theme-green">Research</div>
                       <svg
                         class="my-svg"
+                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -173,6 +175,7 @@
                       <div class="card__theme-orange">Web Design</div>
                       <svg
                         class="my-svg"
+                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -234,6 +237,7 @@
                       <div class="card__theme-purple">Copywriting</div>
                       <svg
                         class="my-svg"
+                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -295,6 +299,7 @@
                       <div class="card__theme-green">Research</div>
                       <svg
                         class="my-svg"
+                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -361,6 +366,7 @@
                       <div class="card__theme-green">Research</div>
                       <svg
                         class="my-svg"
+                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -427,6 +433,7 @@
                       <div class="card__theme-green">Research</div>
                       <svg
                         class="my-svg"
+                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -488,6 +495,7 @@
                       <div class="card__theme-purple">Copywriting</div>
                       <svg
                         class="my-svg"
+                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -549,6 +557,7 @@
                       <div class="card__theme-orange">Web Design</div>
                       <svg
                         class="my-svg"
+                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -615,6 +624,7 @@
                       <div class="card__theme-green">Research</div>
                       <svg
                         class="my-svg"
+                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -681,6 +691,7 @@
                       <div class="card__theme-green">Research</div>
                       <svg
                         class="my-svg"
+                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -744,6 +755,7 @@
         </div>
       </div>
     </main>
+    <PopBrowse v-if="isEditModalOpen" @close="isEditModalOpen = false" />
     <formLogin />
     <popExit />
     <PopNewCard />
@@ -754,8 +766,10 @@
 import PopNewCard from '../form/PopNewCard.vue'
 import popExit from '../basecomop/BaseModal.vue'
 import formLogin from '../pages/SigninView.vue'
+import PopBrowse from '../form/PopBrowse.vue'
 export default {
   components: {
+    PopBrowse,
     formLogin,
     PopNewCard,
     popExit,
@@ -763,14 +777,22 @@ export default {
   data() {
     return {
       isMenuOpen: false,
+      isEditModalOpen: false,
     }
   },
   methods: {
     toggleMenu() {
       this.isMenuOpen = !this.isMenuOpen
     },
-  },
+    showEditModal() {
+      this.isEditModalOpen = true
+    },
+    closeEditModal() {
+      this.isEditModalOpen = false;
+    },
+  }
 }
+
 </script>
 
 <style scoped>
@@ -778,6 +800,7 @@ export default {
   position: absolute;
   right: 13px;
   top: 13px;
+  cursor: pointer;
 }
 .header__user-menu {
   display: none;
