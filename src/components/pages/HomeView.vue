@@ -744,11 +744,22 @@
         </div>
       </div>
     </main>
+    <formLogin />
+    <popExit />
+    <PopNewCard />
   </div>
 </template>
 
 <script>
+import PopNewCard from '../form/PopNewCard.vue'
+import popExit from '../basecomop/BaseModal.vue'
+import formLogin from '../pages/SigninView.vue'
 export default {
+  components: {
+    formLogin,
+    PopNewCard,
+    popExit,
+  },
   data() {
     return {
       isMenuOpen: false,

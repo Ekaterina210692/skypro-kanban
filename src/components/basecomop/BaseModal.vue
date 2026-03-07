@@ -1,25 +1,31 @@
 <template>
-  <div class="pop-exit" v-if="isVisible" @click.self="closeModal">
+  <div class="pop-exit" id="popExit">
     <div class="pop-exit__container">
       <div class="pop-exit__block">
         <div class="pop-exit__ttl">
           <h2>Выйти из аккаунта?</h2>
         </div>
-        <form class="pop-exit__form" @submit.prevent="handleSubmit">
+        <form class="pop-exit__form" id="formExit" action="#">
           <div class="pop-exit__form-group">
-            <button class="pop-exit__exit-yes _hover01" @click="confirmExit">
-              Да, выйти
+            <button class="pop-exit__exit-yes _hover01" id="exitYes">
+              <a href="#formLogIn">Да, выйти</a>
             </button>
-            <button class="pop-exit__exit-no _hover03" @click="cancelExit">
-              Нет, остаться
+            <button class="pop-exit__exit-no _hover03" id="exitNo">
+              <a href="/">Нет, остаться</a>
             </button>
           </div>
         </form>
       </div>
     </div>
+    <formLogIn />
   </div>
 </template>
 
 <script>
-
+import formLogIn from '../pages/SigninView.vue'
+export default {
+  components: {
+    formLogIn,
+  },
+}
 </script>
