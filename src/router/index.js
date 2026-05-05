@@ -1,5 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '@/components/pages/HomeView.vue'
+import SigninView from '@/components/pages/SigninView.vue'
+import SignupView from '@/components/pages/SignupView.vue'
+import CalendarForm from '@/components/form/CalendarForm.vue'
+import PopNewCard from '@/components/form/PopNewCard.vue'
+import PopBrowse from '@/components/form/PopBrowse.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -10,12 +15,44 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue'),
+      path: '/signin',
+      name: 'signin',
+      component: SigninView,
+    },
+    {
+      path: '/signup',
+      name: 'signup',
+      component: SignupView,
+    },
+    {
+      path: '/calendar',
+      name: 'calendar',
+      component: CalendarForm,
+    },
+    {
+      path: '/new-card',
+      name: 'newCard',
+      component: PopNewCard,
+    },
+    {
+      path: '/basemodal',
+      name: 'BaseModal',
+      component: () => import('@/components/basecomop/BaseModal.vue'),
+    },
+    {
+      path: '/tasks/:id',
+      name: 'task-detail',
+      component: PopBrowse,
+    },
+    {
+      path: '/categories',
+      name: 'categories',
+      component: () => import('@/components/form/CategorySelector.vue'),
+    },
+    {
+      path: '/statuses',
+      name: 'statuses',
+      component: () => import('@/components/form/StatusSelector.vue'),
     },
   ],
 })
