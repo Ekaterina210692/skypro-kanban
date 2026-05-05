@@ -1,5 +1,5 @@
 <template>
-  <div class="pop-browse" id="popBrowse" v-if="isModalOpen">
+  <div class="pop-browse" id="popBrowse">
     <div class="pop-browse__container">
       <div class="pop-browse__block">
         <div class="pop-browse__content">
@@ -27,28 +27,25 @@
                 <a href="#">Редактировать задачу</a>
               </button>
           </div>
-
           <div class="pop-browse__btn-edit _hide">
             <div class="btn-group">
               <button class="btn-edit__edit _btn-bg _hover01">
-                <a href="#" @click.prevent="saveTask">Сохранить</a>
+                <a href="#">Сохранить</a>
               </button>
               <button class="btn-edit__edit _btn-bor _hover03">
-                <a href="#" @click.prevent="closeModal">Отменить</a>
+                <a href="#">Отменить</a>
               </button>
               <button class="btn-edit__delete _btn-bor _hover03" id="btnDelete">
-                <a href="#" @click.prevent="deleteTask">Удалить задачу</a>
+                <a href="#">Удалить задачу</a>
               </button>
             </div>
-            <button class="btn-edit__close _btn-bg _hover01" @click="closeModal">
-              <a href="#">Закрыть</a>
-            </button>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="modal-overlay" @click="closeModal"></div>
+  <a href="#" class="modal-overlay" aria-label="Закрыть"></a>
+  <CalendarForm />
   </div>
 </template>
 
@@ -56,38 +53,23 @@
 import TaskForm from './TaskForm.vue'
 import CategorySelector from './CategorySelector.vue'
 import StatusSelector from './StatusSelector.vue'
-
+import CalendarForm from './CalendarForm.vue';
 export default {
-  data() {
-    return {
-      isModalOpen: false
-    }
-  },
-  methods: {
-    showEditModal() {
-      this.isModalOpen = true
-      document.body.style.overflow = 'hidden'
-    },
-    closeModal() {
-      this.isModalOpen = false
-      document.body.style.overflow = 'auto'
-    },
-    saveTask() {
-      // Логика сохранения
-      this.closeModal()
-    },
-    deleteTask() {
-      // Логика удаления
-      this.closeModal()
-    }
-  },
   components: {
     TaskForm,
     CategorySelector,
-    StatusSelector
-  },
-  mounted() {
-    // Если нужно что-то сделать при монтировании компонента
+    StatusSelector,
+    CalendarForm
   }
 }
 </script>
+<style scoped>
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+</style>

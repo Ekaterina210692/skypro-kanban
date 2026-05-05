@@ -49,9 +49,9 @@
                   <div class="card">
                     <div class="card__theme">
                       <div class="card__theme-orange">Web Design</div>
-                      <svg
+                      <a href="#popBrowse">
+                        <svg
                         class="my-svg"
-                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -71,6 +71,7 @@
                           fill="#94A6BE"
                         />
                       </svg>
+                    </a>
                     </div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
@@ -111,9 +112,9 @@
                   <div class="card">
                     <div class="card__theme">
                       <div class="card__theme-green">Research</div>
-                      <svg
+                      <a href="#popBrowse">
+                        <svg
                         class="my-svg"
-                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -133,6 +134,7 @@
                           fill="#94A6BE"
                         />
                       </svg>
+                    </a>
                     </div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
@@ -173,9 +175,9 @@
                   <div class="card">
                     <div class="card__theme">
                       <div class="card__theme-orange">Web Design</div>
-                      <svg
+                      <a href="#popBrowse">
+                        <svg
                         class="my-svg"
-                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -195,6 +197,7 @@
                           fill="#94A6BE"
                         />
                       </svg>
+                    </a>
                     </div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
@@ -235,9 +238,9 @@
                   <div class="card">
                     <div class="card__theme">
                       <div class="card__theme-purple">Copywriting</div>
-                      <svg
+                      <a href="#popBrowse">
+                        <svg
                         class="my-svg"
-                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -257,6 +260,7 @@
                           fill="#94A6BE"
                         />
                       </svg>
+                    </a>
                     </div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
@@ -297,9 +301,9 @@
                   <div class="card">
                     <div class="card__theme">
                       <div class="card__theme-green">Research</div>
-                      <svg
+                      <a href="#popBrowse">
+                        <svg
                         class="my-svg"
-                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -319,6 +323,7 @@
                           fill="#94A6BE"
                         />
                       </svg>
+                    </a>
                     </div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
@@ -364,9 +369,9 @@
                   <div class="card">
                     <div class="card__theme">
                       <div class="card__theme-green">Research</div>
-                      <svg
+                      <a href="#popBrowse">
+                        <svg
                         class="my-svg"
-                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -386,6 +391,7 @@
                           fill="#94A6BE"
                         />
                       </svg>
+                    </a>
                     </div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
@@ -431,9 +437,9 @@
                   <div class="card">
                     <div class="card__theme">
                       <div class="card__theme-green">Research</div>
-                      <svg
+                      <a href="#popBrowse">
+                        <svg
                         class="my-svg"
-                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -453,6 +459,7 @@
                           fill="#94A6BE"
                         />
                       </svg>
+                    </a>
                     </div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
@@ -493,9 +500,9 @@
                   <div class="card">
                     <div class="card__theme">
                       <div class="card__theme-purple">Copywriting</div>
-                      <svg
+                      <a href="#popBrowse">
+                        <svg
                         class="my-svg"
-                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -515,6 +522,7 @@
                           fill="#94A6BE"
                         />
                       </svg>
+                    </a>
                     </div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
@@ -555,9 +563,9 @@
                   <div class="card">
                     <div class="card__theme">
                       <div class="card__theme-orange">Web Design</div>
-                      <svg
+                      <a href="#popBrowse">
+                        <svg
                         class="my-svg"
-                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -577,6 +585,7 @@
                           fill="#94A6BE"
                         />
                       </svg>
+                    </a>
                     </div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
@@ -622,9 +631,9 @@
                   <div class="card">
                     <div class="card__theme">
                       <div class="card__theme-green">Research</div>
-                      <svg
+                      <a href="#popBrowse">
+                        <svg
                         class="my-svg"
-                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -644,6 +653,7 @@
                           fill="#94A6BE"
                         />
                       </svg>
+                    </a>
                     </div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
@@ -689,9 +699,9 @@
                   <div class="card">
                     <div class="card__theme">
                       <div class="card__theme-green">Research</div>
-                      <svg
+                      <a href="#popBrowse">
+                        <svg
                         class="my-svg"
-                        @click="showEditModal"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -711,6 +721,7 @@
                           fill="#94A6BE"
                         />
                       </svg>
+                    </a>
                     </div>
                     <div class="card__content">
                       <h3 class="card__title">Название задачи</h3>
@@ -755,7 +766,8 @@
         </div>
       </div>
     </main>
-    <PopBrowse v-if="isEditModalOpen" @close="isEditModalOpen = false" />
+    <calendar-form />
+    <popBrowse />
     <formLogin />
     <popExit />
     <PopNewCard />
@@ -766,33 +778,35 @@
 import PopNewCard from '../form/PopNewCard.vue'
 import popExit from '../basecomop/BaseModal.vue'
 import formLogin from '../pages/SigninView.vue'
-import PopBrowse from '../form/PopBrowse.vue'
+import popBrowse from '../form/PopBrowse.vue'
+import CalendarForm from '../form/CalendarForm.vue'
 export default {
   components: {
-    PopBrowse,
+    popBrowse,
     formLogin,
     PopNewCard,
     popExit,
+    CalendarForm
   },
   data() {
     return {
       isMenuOpen: false,
-      isEditModalOpen: false,
     }
   },
   methods: {
     toggleMenu() {
       this.isMenuOpen = !this.isMenuOpen
     },
-    showEditModal() {
-      this.isEditModalOpen = true
-    },
-    closeEditModal() {
-      this.isEditModalOpen = false;
-    },
-  }
+    toggleCalendar() {
+      const calendar = document.getElementById('calendar-form');
+      if (calendar.classList.contains('active')) {
+        calendar.classList.remove('active');
+      } else {
+        calendar.classList.add('active');
+      }
+    }
 }
-
+}
 </script>
 
 <style scoped>
